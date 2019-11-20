@@ -15,7 +15,8 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-   contacts.each do |person,data|
+   contacts.each do |person, contact_details_hash|
+     if person == "Freddy mercury"
        puts "#{person}: #{data}"
       |data|.each do || delete_if.include?(["strawberry"])
           end
