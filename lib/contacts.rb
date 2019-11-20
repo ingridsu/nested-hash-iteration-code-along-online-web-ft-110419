@@ -17,4 +17,5 @@ require 'pry'
 def remove_strawberry(contacts)
    contacts.each do |person,data|
        puts "#{person}: #{data}"
-            |data|.delete_if(["strawberry"]).include? ["strawberry"]
+            |data|.delete_if(["strawberry"])
+            |data|.include? ["strawberry"]
