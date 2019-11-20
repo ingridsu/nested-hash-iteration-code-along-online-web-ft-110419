@@ -18,4 +18,4 @@ def remove_strawberry(contacts)
    contacts.each do |person,data|
        puts "#{person}: #{data}"
             |data|.delete_if.include?(["strawberry"])
-            |data|.include?(["strawberry"])
+          end
